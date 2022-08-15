@@ -1,4 +1,6 @@
 {
     "mongoURI":
-        "mongodb+srv://mern123:mern123@mernatoz.kiqw6af.mongodb.net/?retryWrites=true&w=majority"
+        "mongodb+srv://mern123:mern123@mernatoz.c4rjkaw.mongodb.net/?retryWrites=true&w=majority",
+    "port": 5000,
+    "node_env": "main"
 }
