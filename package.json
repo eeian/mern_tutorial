@@ -10,7 +10,7 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "app": "nodemon app.js",
     "develop": "npm run app",
-    "start": "npm run app"
+    "start": "npm install && npm run app"
   },
   "repository": {
     "type": "git",
