@@ -9,8 +9,8 @@
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
     "app": "nodemon app.js",
-    "develop": "concurrently --kill-others-on-fail \"npm run app\" \"npm run start --prefix client\"",
-    "start": "concurrently --kill-others-on-fail \"npm run app\" \"npm run start --prefix client\""
+    "develop": "npm run app",
+    "start": "npm run app"
   },
   "repository": {
     "type": "git",
